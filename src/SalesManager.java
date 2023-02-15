@@ -7,7 +7,7 @@ public class SalesManager {
 
     public long max() {
         long max = -1;
-        for (long sale : sales) {
+        for(long sale : sales) {
             if (sale > max) {
                 max = sale;
             }
